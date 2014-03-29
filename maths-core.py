@@ -15,9 +15,9 @@ def divisor_calculator(num):
 	_p.append(_num)
 	return _p
 
-def primegenerator(_set):
+def primegenerator(limit):
 	_set=[]
-	for i in range(2,999):
+	for i in range(2,limit):
 		if(isPrime(i)==True):
 			_set.append(i)
 	return _set
